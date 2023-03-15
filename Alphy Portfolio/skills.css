@@ -1,0 +1,81 @@
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+section h2{
+    color: white;
+    text-align: right;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+section h3{
+    padding-top: 40px;
+}
+
+section{
+    background-color: black;
+    color: white;
+}
+
+
+div h1{
+    font-size: 140px;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+div h1:hover{
+    padding-left: 420px;
+    transition: 5s ease-in;
+}
+
+@media screen and (max-width: 600px) {
+
+    *{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    
+    section h3{
+        padding-top: 100px;
+        padding-left: 30px;
+        text-decoration: dashed;
+        text-shadow: violet 10px;
+    }
+    section h3:hover{
+        transform: translate3d(0, 0,30);
+        
+    }
+    section h2{
+        color: white;
+        text-align: right;
+        position: fixed;
+        top: 50px;
+        right: 50px;
+    }
+    
+    
+    section{
+        background-color: black;
+        color: white;
+    }
+    
+    
+    div h1{
+        font-size: 40px;
+        margin-left: 60px;
+        padding-top: 100px;
+    }
+    
+    div h1:hover{
+        padding-left: 190px;
+        transition:  3s ease-in-out;
+    }
+
+
+}

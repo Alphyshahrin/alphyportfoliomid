@@ -1,0 +1,28 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.contact ul{
+    display: flex;
+    flex-direction: column;
+
+}
+.contacts li{
+    padding: 30px;
+    list-style: none;
+    
+}
+
+
+.contacts ul li a i{
+    font-size: 100px;
+}
+.contact ul li a i:hover{
+    color: darkmagenta;
+}
+

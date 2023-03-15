@@ -1,0 +1,265 @@
+
+*{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F9FA;
+    
+}
+
+.nameimg{
+    display: flex;
+    margin-left: 50px;
+    
+}
+.nameimg h1{
+    margin-left: 20px;
+    color: crimson;
+}
+
+.headpic{
+    width:70px;
+    border-radius: 50%;
+}
+
+
+.links{
+    
+    margin-right: 50px;
+    
+}
+
+.links a{
+        margin-right: 40px;
+        color: black;
+        text-decoration: none;
+
+}
+
+.links a:hover{
+    color: crimson;
+}
+
+.main{
+    margin-bottom: 0;
+    background-color:rgb(0, 0, 0) ;
+    height: 711px;
+    display: grid;
+    grid-template-columns: 3fr 8fr 8fr;
+    
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.contacts li{
+    padding: 30px;
+    
+}
+
+
+.contacts ul li a i{
+    font-size: 60px;
+}
+
+.intro{
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 150px;    
+}
+
+.intro h1{
+    padding-left: 40px;
+    
+    font-size: 110px;
+    font-weight: 900;
+    /* transition: 3s ease-in; */
+    transition:3s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.intro h1:hover{
+    padding-right: 30px;
+    padding-left: 30px;
+    transition: 5s ease;
+}
+.hello{
+    color: white;
+}
+
+.iam{
+    color: crimson;
+}
+.main img{
+    height: 711px;   
+}
+.alphyimg{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+/* for  smalll screen */
+
+@media screen and (max-width: 700px) {
+
+  
+
+  
+    
+    .header{
+        padding-top: 20px;
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F8F9FA;
+        
+    }
+    
+    .nameimg{
+        display: flex;
+        margin-left: 0px;
+        
+        
+    }
+    .nameimg h1{
+        margin-left: 10px;
+        color: crimson;
+    }
+    
+    .headpic{
+        width:70px;
+        border-radius: 50%;
+        display: none;
+    }
+    
+    
+    .links{
+        margin-top: 20px;
+        margin-right: 5px;
+        display: flex;
+       flex-direction: row;
+        padding-bottom: 35px;
+        justify-content: center;
+        padding-left: 150px;
+        
+       
+       
+       
+    }
+    .links div:nth-child(1){
+        display: block;
+        
+    }
+    
+    .links a{
+            margin-right: 4px;
+            color: black;
+            text-decoration: none;
+            padding-top: 20px;
+            text-align: center;
+    }
+    
+    .links a:hover{
+        color: crimson;
+    }
+    
+    .main{
+        margin-bottom: 0;
+        background-color:rgb(0, 0, 0) ;
+        
+        display: grid;
+        padding-left: 0;
+        grid-template-columns: 2fr 6fr 10fr ;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 425px;
+       
+    }
+    
+    .contacts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;           
+    
+    }
+    .contacts li{
+        
+        padding: 0;
+        padding-top: 25px;
+        
+    }
+ 
+    
+    .contacts ul li a i{
+        font-size: 20px;
+        padding-left: 0;
+    }
+    
+    .intro{
+        padding-left: 4px;
+        padding-bottom: 0px;
+        padding-top: 45px;
+         
+        padding-left: 0;  
+    }
+    
+    .intro h1{
+        font-size: 40px;
+        font-weight: 500;
+        
+        padding-top: 45px;
+        
+        transition: 9s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        
+    }
+
+    .intro h1::before{
+
+    }
+
+    .intro h1:hover{
+        padding-left: 5px;
+        padding-bottom: 10px;
+        padding-right: 0
+        transition: 2s ease-out;
+    }
+    .hello{
+        color: white;
+    }
+    
+    .iam{
+        color: crimson;
+    }
+
+    .alphyimg{
+        background-image: url('/background2.png');
+        
+        background-repeat: no-repeat;
+        background-position: right;
+        padding-top: 0;
+        
+
+    }
+    .main img{
+       display: none;
+       
+    }
+
+   
+    
+    
+
+}
